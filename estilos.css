@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(255, 254, 254);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(53, 52, 52);
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.main{
+    /* display: flex;
+    flex-direction: column; */
+    margin: 2em 1em;
+    border-radius: 10px;
+    background-color:rgb(238, 236, 236);
+    transition: all 700ms ease-in-out;
+}
+
+.contain-title{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    transition: all 500ms ease-in-out;
+    
+}
+
+.contain-title .title{
+    margin-bottom: 1em;
+    font-size: 3em;
+}
+
+.contain-title p{
+    font-size: 1.5em;
+    
+}
+
+
+.img-div{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    margin: 1em 2em;
+    background-color: white;
+    transition: all 500ms ease-in-out;
+  
+}
+
+.img-div img{
+    margin-bottom: 1em;
+    flex-shrink: 3;
+}
+
+.img-div p{
+    font-size: 1em;
+    text-align: center;
+    line-height: 1.8em;
+    flex-shrink: 1;
+    
+}
+
+
+
+.tribute-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    margin: 1em 2em;
+    transition: all 500ms ease-in-out;
+    
+}
+
+.tribute-info h3{
+    font-size: 1.5em;
+    margin: 1em 0 2em 0;
+}
+
+.tribute-info ul{
+    max-width: 700px;
+    text-align: left;
+    line-height: 2;
+}
+
+.tribute-info li{
+    margin: 1em;
+}
+
+.tribute-info p{
+    max-width: 650px;
+    text-align: left;
+    line-height: 1.5;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.tribute-info cite{
+    margin-bottom: 2em;
+}
+
+@media (max-width:500px){
+    .main{
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+    .contain-title{
+        margin: 0 10px 10px 10px;
+        font-size: .5em;
+        text-align: center;
+    }
+
+    .contain-title p{
+        font-size: 1.5em;
+    }
+    .img-div{
+        
+        padding: 0.5em;
+        margin: 0.5em;   
+      
+    }
+
+    .img-div p{
+        line-height: 1.5em;
+        font-size: .9em;
+    }
+
+    .tribute-info{
+        margin: 0;
+        padding: 2em;
+     }
+
+    .tribute-info h3{
+        font-size: 1.2em;
+        margin: 1em 0 2em 0;
+        text-align: center;
+        line-height: 1.5em;
+    }
+    .tribute-info ul{
+        line-height: 1.5em;
+    }
+
+    
+    
+}
